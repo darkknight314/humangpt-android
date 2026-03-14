@@ -21,7 +21,7 @@ android {
         }
         release {
             isMinifyEnabled = false
-            buildConfigField("String", "BASE_URL", "\"https://humangpt.vercel.app\"")
+            buildConfigField("String", "BASE_URL", "\"https://humangpt-android-darkknight314s-projects.vercel.app\"")
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
